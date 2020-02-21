@@ -1,0 +1,73 @@
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+.wrapper {
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+form p:nth-of-type(1) {
+  margin-top: 0px;
+}
+
+.controls,
+.results {
+  padding: 10px;
+  flex: 1;
+}
+
+article p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+article p:nth-of-type(2) {
+  font-size: 14px;
+  line-height: 2;
+}
+
+nav {
+  margin-bottom: 50px;
+}
+
+.prev {
+  float: left;
+}
+
+.next {
+  float: right;
+}
+
+article {
+    padding : 10px;
+    margin-bottom: 20px;
+    background-color: burlywood;
+    border: 1px solid #cccccc;
+}
+
+img{
+    float: left;
+    margin-left: 20px;
+    max-width: 200px;
+}
+
+span{
+    background-color: #cccccc;
+    padding: 5px;
+    margin: 5px;
+}
+
+.clearfix{
+    clear: both;
+}
+
+
